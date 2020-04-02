@@ -6,6 +6,8 @@
 [![GitHub forks](https://img.shields.io/github/forks/saowu/algorithms.svg?style=flat-square)](https://github.com/saowu/algorithms/network)
 [![GitHub stars](https://img.shields.io/github/stars/saowu/algorithms.svg?style=flat-square)](https://github.com/saowu/algorithms/stargazers)
 
+[下载 algs4.jar](https://algs4.cs.princeton.edu/code/algs4.jar)
+
 ### 一、排序
 #### 1.初级排序算法
 ##### 1.1选择排序
@@ -44,3 +46,14 @@
 算法 | 平均时间复杂度 | 最坏时间复杂度 | 空间复杂度 | 是否稳定
 ---|---|---|---|---|
 自底向上归并排序 | ` O(nlogn) ` | ` O(nlogn) ` | ` O(n) ` | 是
+
+
+#### 3.快速排序算法
+##### 3.1基本快速排序
+>命题A：对于长度为` N `的无重复数组，快速排序算法平均需要`～2NlgN `次比较（以及1/6次的交换）。
+
+>命题B：快速排序最多需要约`N^2/2`次比较，但随机打乱数组能够预防这种状况。
+
+算法 | 平均时间复杂度 | 最坏时间复杂度 | 空间复杂度 | 是否稳定
+---|---|---|---|---|
+基本快速排序 | ` O(nlogn)` | ` O(n^2） ` | ` O(logn) ` | 否
